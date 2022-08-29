@@ -51,7 +51,7 @@ $(function() {
       data: $(this).serialize(),
       success: function (res) {
         if (res.status !== 0)
-          layer.msg(res.message)
+          return layer.msg(res.message)
         layer.msg('登陆成功')
         // 保存token
         localStorage.setItem('token', res.token)
