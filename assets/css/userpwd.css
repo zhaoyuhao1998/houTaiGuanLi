@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.layui-card {
+  padding: 20px;
+  background-color: gainsboro;
+}
+
+.layui-form-item {
+  width: 550px;
+}

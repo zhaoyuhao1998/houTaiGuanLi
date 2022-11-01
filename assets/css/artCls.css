@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.layui-card {
+  padding: 20px;
+  background-color:blanchedalmond;
+}
+
+.layui-card-header {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+tbody td:last-child {
+  width: 30%;
+}
+
+#art-add .layui-form-item:last-childo {
+  margin-top: 40px;
+}

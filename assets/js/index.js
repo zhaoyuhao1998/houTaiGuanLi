@@ -30,7 +30,7 @@ function getUserInfo() {
       if (res.status !== 0)
         return console.log(res.message)
       let data = res.data
-      console.log(data)
+      //console.log(data)
       // 1.欢迎 xxx
       let name = data.nickname || data.username
       $('#welcome').html('欢迎 ' + name)
@@ -38,7 +38,7 @@ function getUserInfo() {
       renderAvatar(data)
     },
     complete: function(res) {
-      console.log(res)
+      //console.log(res)
       if (res.responseJSON.status !== 0) {
         localStorage.removeItem('token')
         location.href = '/login.html'
